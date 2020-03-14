@@ -1,0 +1,174 @@
+ChunkHopperItem:
+   Name: "§3§lChunk Hopper"
+   Lore: [§bThis is a Chunk Hopper,§bIt picks up all the items in a chunk!]
+   
+UpgradeItem:
+   Name: "§aChunk Hopper Upgrade"
+   '1':
+      Lore: [§6Tier 1 §a➜ §6Tier 2]
+   '2': 
+      Lore: [§6Tier 2 §a➜ §6Tier 3]
+   
+GUI:
+   Settings:
+      Name: "§8§nChunk Hopper Controls:"
+      Items: 
+         FriendList: 
+            Name: "§2Click here to open your friends list"
+            Lore: []
+         Filter: 
+            Name: "§e§lFilter Options"
+            Lore: ["§fChange the item filter", "§ffor this Chunk Hopper"]
+         Break:
+            Name: "§4Click here to break this Chunk Hopper"
+            Lore: []
+   Friends:
+      Name: "§3Your Chunk Hopper friends list:"
+      Items:
+         AddFriend: 
+            Name: "§aClick here to add a friend"
+            Lore: []
+         Explain:
+            Name: "§3Players in this list can access your Chunk Hopper settings"
+            Lore: [§cClick on a skull to remove a friend,§aClick on the Emerald Block to add a friend]
+   Filter:
+      Name: "§3Your Chunk Hopper filter:"
+      Items:
+         Explain:
+            Book:
+               Name: "§aWhitelist §for §cBlacklist §f an Item of max 45 item types."
+               Lore: [§cBlacklisted §fitems will not get sold, §fIn §aWhitelist §fmode only set items will get sold, "", "§fMax: §c45 §fItems"]
+            Emerald:
+               Name: "§a§lAdd Item"
+               Lore: ["§fClick it in your inventory"]
+            Redstone:
+               Name: "§c§lRemove Item"
+               Lore: ["§fClick it above"]
+         Whitelist:
+            Lore: [§aWhitelist Item, §7Click to change]
+         Blacklist:
+            Lore: [§cBlacklist Item, §8Click to change]
+         Reset:
+            Name: "§cTo reset your filter to default click here"
+            Lore: []
+   
+   SellingFilter:
+      Name: "§3Your Chunk Hopper selling filter:"
+      Items:
+         Explain: 
+            Book: 
+               Name: "§aWhitelist §for §cBlacklist §f an Item of max 45 item types."
+               Lore: [§cBlacklisted §fitems will not get sold, §fIn §aWhitelist §fmode only set items will get sold, "", "§fMax: §c45 §fItems"]
+            Emerald: 
+               Name: "§a§lAdd Item"
+               Lore: ["§fClick it in your inventory"]
+            Redstone:
+               Name: "§c§lRemove Item"
+               Lore: ["§fClick it above"]
+         Whitelist:
+            Lore: [§7Only sells items set up in this filter,§7Click to change]
+         Blacklist:
+            Lore: [§8Sells all items but the ones set up in this filter,§8Click to change]
+         Reset:
+            Name: "§cReset Filter"
+            Lore: []
+
+DefaultFilters:
+   Whitelist:
+      Normal: False
+      Selling: True
+   Normal:
+       '0': "AIR"
+       '1': "AIR"
+       '2': "AIR"
+       '3': "AIR"
+       '4': "AIR"
+       '5': "AIR"
+       '6': "AIR"
+       '7': "AIR"
+       '8': "AIR"
+       '9': "AIR"
+       '10': "AIR"
+       '11': "AIR"
+       '12': "AIR"
+       '13': "AIR"
+       '14': "AIR"
+       '15': "AIR"
+       '16': "AIR"
+       '17': "AIR"
+       '18': "AIR"
+       '19': "AIR"
+       '20': "AIR"
+       '21': "AIR"
+       '22': "AIR"
+       '23': "AIR"
+       '24': "AIR"
+       '25': "AIR"
+       '26': "AIR"
+       '27': "AIR"
+       '28': "AIR"
+       '29': "AIR"
+       '30': "AIR"
+       '31': "AIR"
+       '32': "AIR"
+       '33': "AIR"
+       '34': "AIR"
+       '35': "AIR"
+       '36': "AIR"
+       '37': "AIR"
+       '38': "AIR"
+       '39': "AIR"
+       '40': "AIR"
+       '41': "AIR"
+       '42': "AIR"
+       '43': "AIR"
+       '44': "AIR"
+   Selling:
+       '0': "AIR"
+       '1': "AIR"
+       '2': "AIR"
+       '3': "AIR"
+       '4': "AIR"
+       '5': "AIR"
+       '6': "AIR"
+       '7': "AIR"
+       '8': "AIR"
+       '9': "AIR"
+       '10': "AIR"
+       '11': "AIR"
+       '12': "AIR"
+       '13': "AIR"
+       '14': "AIR"
+       '15': "AIR"
+       '16': "AIR"
+       '17': "AIR"
+       '18': "AIR"
+       '19': "AIR"
+       '20': "AIR"
+       '21': "AIR"
+       '22': "AIR"
+       '23': "AIR"
+       '24': "AIR"
+       '25': "AIR"
+       '26': "AIR"
+       '27': "AIR"
+       '28': "AIR"
+       '29': "AIR"
+       '30': "AIR"
+       '31': "AIR"
+       '32': "AIR"
+       '33': "AIR"
+       '34': "AIR"
+       '35': "AIR"
+       '36': "AIR"
+       '37': "AIR"
+       '38': "AIR"
+       '39': "AIR"
+       '40': "AIR"
+       '41': "AIR"
+       '42': "AIR"
+       '43': "AIR"
+       '44': "AIR"
+   
+   
+            

@@ -1,0 +1,15 @@
+name: RCHunkHoppers
+version: ${project.version}
+main: cl.bgmp.rchunkhoppers.RCHunkHoppers
+api-version: '1.13'
+authors: [Lolimi]
+description: RCHoppers, in regards to Chunks
+website: http://www.rchoppers.org/
+depend: [ShopGUIPlus, Vault, RCHoppers]
+commands:
+  gch:
+  gu:
+permissions:
+  chunkhoppers.admin:
+    description: for gch and gu commands
+    default: op
